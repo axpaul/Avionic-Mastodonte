@@ -1,11 +1,9 @@
 # Mastodonte – Séquenceur avionique 
 
-![WallPaper](Image/Mastodonte-N5.png)
-
-## Présentation
-
 **Mastodonte** est un ordinateur de bord conçu pour piloter en autonomie les événements critiques d’un vol fusée reposant sur le cahier des charges du C'space.  
 Il prend en charge la détection du décollage, le déclenchement des moteurs de séparation, le déploiement des systèmes de récupération, ainsi que l’enregistrement embarqué des données.
+
+![WallPaper](Image/Mastodonte-N5.png)
 
 ---
 
