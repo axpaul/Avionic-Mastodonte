@@ -1,0 +1,384 @@
+(footprint "TO-220-3_Horizontal_TabDown"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
+	(tags "TO-220-3 Horizontal RM 2.54mm")
+	(property "Reference" "U1"
+		(at 2.54 -20.58 180)
+		(layer "F.SilkS")
+		(uuid "13e460ea-0282-4a57-8804-3a37d414a118")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L7805"
+		(at 2.54 2 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47908d28-8745-466e-bc03-bbdcf6e05bd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Library:TO-220-3_Horizontal_TabDown"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f453ef46-4707-45bb-b3b0-0db9dab9566a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7be31d24-bef5-40ca-90da-bf01d1d34477")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a6227b4-02cb-4753-af0a-81f22cd08059")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.58 -19.58)
+		(end -2.58 -3.69)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd954117-6323-462f-9702-fdeb4ca2111a")
+	)
+	(fp_line
+		(start -2.58 -19.58)
+		(end 7.66 -19.58)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd8fd8db-5f16-4994-a036-2baf385baaa4")
+	)
+	(fp_line
+		(start -2.58 -3.69)
+		(end 7.66 -3.69)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8297683-4159-4049-92fc-65a1f5c1ee67")
+	)
+	(fp_line
+		(start 0 -3.69)
+		(end 0 -1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7884365-1c55-471a-b23d-161770d3553b")
+	)
+	(fp_line
+		(start 2.54 -3.69)
+		(end 2.54 -1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84171229-dfb4-4a26-92f9-72ef5f7c7f7f")
+	)
+	(fp_line
+		(start 5.08 -3.69)
+		(end 5.08 -1.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1fb6068e-5f18-42ff-b2b9-8977ffacc783")
+	)
+	(fp_line
+		(start 7.66 -19.58)
+		(end 7.66 -3.69)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16d7971a-ae89-49b3-8396-51b2abbb9fae")
+	)
+	(fp_line
+		(start -2.71 -19.71)
+		(end -2.71 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2311e7bf-e258-47ed-a110-6b043c96ed8b")
+	)
+	(fp_line
+		(start -2.71 1.25)
+		(end 7.79 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e7a6356-4051-4fd7-a92b-59014f7d3a64")
+	)
+	(fp_line
+		(start 7.79 -19.71)
+		(end -2.71 -19.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b6f72b1-20de-4624-bde6-33c3d7f1bbc9")
+	)
+	(fp_line
+		(start 7.79 1.25)
+		(end 7.79 -19.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7551a0b-0c92-4e93-b1de-cda8ce7955df")
+	)
+	(fp_line
+		(start -2.46 -19.46)
+		(end 7.54 -19.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f586cfc-29a4-4b18-85ab-c79fd4ef5e62")
+	)
+	(fp_line
+		(start -2.46 -13.06)
+		(end -2.46 -19.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb663037-bdd1-4e48-853b-9cfd850bb72d")
+	)
+	(fp_line
+		(start -2.46 -13.06)
+		(end 7.54 -13.06)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a38d133e-509d-4bab-bda0-51b34de4162e")
+	)
+	(fp_line
+		(start -2.46 -3.81)
+		(end -2.46 -13.06)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b961eeba-4d68-4eb4-bd92-40b460e67616")
+	)
+	(fp_line
+		(start 0 -3.81)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3a2b04b5-5c16-4167-842c-1fb759a4b981")
+	)
+	(fp_line
+		(start 2.54 -3.81)
+		(end 2.54 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3bba8a1-07fe-4951-8af8-2581f67a6ab0")
+	)
+	(fp_line
+		(start 5.08 -3.81)
+		(end 5.08 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b023b3b-96f3-4ab2-bfb6-72822e69fdfd")
+	)
+	(fp_line
+		(start 7.54 -19.46)
+		(end 7.54 -13.06)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd940d81-776e-47c5-b8b3-18fd41579fbf")
+	)
+	(fp_line
+		(start 7.54 -13.06)
+		(end -2.46 -13.06)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb6e0f2a-4381-49a0-a9fd-d1d5b965f6ae")
+	)
+	(fp_line
+		(start 7.54 -13.06)
+		(end 7.54 -3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b4357a2-ad84-4760-9806-9ef5dca7b442")
+	)
+	(fp_line
+		(start 7.54 -3.81)
+		(end -2.46 -3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e6640eb6-d8b9-4da4-b7a7-edc91fa3b48e")
+	)
+	(fp_circle
+		(center 2.54 -16.66)
+		(end 4.39 -16.66)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2346f8ae-6466-41a0-8719-9385c9c273a4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 -20.58 180)
+		(layer "F.Fab")
+		(uuid "ad4eae55-c971-402a-a481-6e2f7db17166")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "29dc3f2b-b9ab-4915-927e-8c15eb5e3028")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 -16.66)
+		(size 3.5 3.5)
+		(drill 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1ff89e42-ca79-4f8c-988f-3de78927f905")
+	)
+	(pad "2" smd rect
+		(at 2.54 -14.31925)
+		(size 9.652 9.8425)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "237c0387-163a-456a-840c-19622747a578")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "080aa97b-d7db-45a2-a3ef-8318698ac975")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "db02efbf-e792-40a6-98d0-9e8ff112c2f5")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/Library/STEP/ChildPCBRocketV4.2_90592A085_Steel Hex Nut v1.step"
+		(offset
+			(xyz 2.5 16.5 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/Library/STEP/ChildPCBRocketV4.2_91290A110_Black-Oxide Alloy Steel Socket Head Screw v1.step"
+		(offset
+			(xyz 2.5 16.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

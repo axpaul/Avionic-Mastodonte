@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SQD50P04-13L_T4GE3
+#/17106573/372776/2.50/3/3/MOSFET (P-Channel)
+DEF SQD50P04-13L_T4GE3 Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "SQD50P04-13L_T4GE3" 450 50 50 H V L CNN
+F2 "SQD50P0413L_T4GE3" 450 -50 50 H I L CNN
+F3 "https://www.digikey.ph/en/products/detail/vishay-siliconix/SQD50P04-13L-T4GE3/16397487?msockid=39f1ec84d77b6f4428b7f904d6676eed" 450 -150 50 H I L CNN
+F4 "P-Channel 40 V 50A (Tc) 3W (Ta), 136W (Tc) Surface Mount TO-252AA , -55C ~ 175C (TJ)" 450 -250 50 H I L CNN "Description"
+F5 "2.507" 450 -350 50 H I L CNN "Height"
+F6 "Vishay" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "SQD50P04-13L_T4GE3" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "78-SQD50P04-13LT4GE3" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQD50P04-13L_T4GE3?qs=MLItCLRbWszJqVTZL95jFQ%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F10 "" 450 -850 50 H I L CNN "Arrow Part Number"
+F11 "" 450 -950 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 400 100 D 50 50 0 0 P
+X ~ 3 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 300 100 260 120 260 80 300 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

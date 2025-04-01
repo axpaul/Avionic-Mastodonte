@@ -1,0 +1,351 @@
+(footprint "SQD50P0413L_T4GE3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-252AA_2025-1")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "Q1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "92df4f65-6943-4c14-81ad-bd0e02f4c60c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SQD50P04-13L_T4GE3"
+		(at 0 -7.874 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "29ca85ec-9cba-43d9-8d53-b30add4ef89d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "Library:SQD50P0413L_T4GE3"
+		(at 0 8.128 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1c28036-b7c7-4a5b-8d9b-d1cf6ac8c634")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.ph/en/products/detail/vishay-siliconix/SQD50P04-13L-T4GE3/16397487?msockid=39f1ec84d77b6f4428b7f904d6676eed"
+		(at 0 15.494 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c1edde2-4f49-45b4-9a4a-72af71e671fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "P-Channel 40 V 50A (Tc) 3W (Ta), 136W (Tc) Surface Mount TO-252AA , -55C ~ 175C (TJ)"
+		(at 0 10.668 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4336ccb7-40f9-499e-8609-9e8710dfcd6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "2.507"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce11bd0f-7c07-4446-9b32-1b16678c0fc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Vishay"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf0b768f-b7e6-465e-b577-b9b867e4cb7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SQD50P04-13L_T4GE3"
+		(at 0 19.812 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c41fe00-4de6-4ecf-a4d1-43a0f0e787e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "78-SQD50P04-13LT4GE3"
+		(at 0 17.78 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55b3fbd3-50f2-4b59-99f6-e609afb6225c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQD50P04-13L_T4GE3?qs=MLItCLRbWszJqVTZL95jFQ%3D%3D"
+		(at 0 12.954 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24ee566c-5a64-4781-aeb4-86c38b4ded7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a1d1a96-8073-4335-bde6-cc9c5f1b7ea6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3ce950d-8e89-4e51-b8bf-e1a0efa450dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.27 -4)
+		(end -3.27 1.841)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac033c81-376e-4f95-a709-4d023d9b61eb")
+	)
+	(fp_line
+		(start -3.27 1.841)
+		(end 3.27 1.841)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6ddf282-6b64-498c-b83a-f4da2f9eb76d")
+	)
+	(fp_line
+		(start -2.286 5.791)
+		(end -2.286 5.791)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07852503-5e86-4c65-a6c4-85bf475bc516")
+	)
+	(fp_line
+		(start -2.286 5.891)
+		(end -2.286 5.891)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0942478a-96f7-4fd5-a137-070feba6eabf")
+	)
+	(fp_line
+		(start 3.27 1.841)
+		(end 3.27 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2f01774-ea54-4cd7-b92c-8e4945640498")
+	)
+	(fp_arc
+		(start -2.286 5.791)
+		(mid -2.236 5.841)
+		(end -2.286 5.891)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecc1edb7-e8de-4c86-8218-6c1c05d4fad4")
+	)
+	(fp_arc
+		(start -2.286 5.891)
+		(mid -2.336 5.841)
+		(end -2.286 5.791)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65b1625a-1b23-408e-970b-d407ea7bd947")
+	)
+	(fp_line
+		(start -4.27 -6.334)
+		(end 4.27 -6.334)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4e33729-4252-435b-8c56-6f72707364ed")
+	)
+	(fp_line
+		(start -4.27 6.334)
+		(end -4.27 -6.334)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "345315de-1bd2-45c8-9de4-eaf7370cf6b9")
+	)
+	(fp_line
+		(start 4.27 -6.334)
+		(end 4.27 6.334)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71e561ff-b67e-4417-8b41-85347cd08c17")
+	)
+	(fp_line
+		(start 4.27 6.334)
+		(end -4.27 6.334)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a4bf817-825e-4fe0-9eff-f8b6d73ef7e9")
+	)
+	(fp_line
+		(start -3.27 -4.254)
+		(end 3.27 -4.254)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4bc51a1a-d126-41ae-ba37-5682d6d75ff3")
+	)
+	(fp_line
+		(start -3.27 1.841)
+		(end -3.27 -4.254)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7f5cb28-f2e5-42dd-a7cc-882a1df84dfb")
+	)
+	(fp_line
+		(start 3.27 -4.254)
+		(end 3.27 1.841)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06cb16be-efca-4f06-b4bd-b30625b4ae3b")
+	)
+	(fp_line
+		(start 3.27 1.841)
+		(end -3.27 1.841)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52eaf530-55c4-4054-b718-e7095f1b2b5f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -9.906 0)
+		(layer "F.Fab")
+		(uuid "cb128931-28ee-4b02-8271-67bd845935fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.286 4.191)
+		(size 1.397 2.286)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fab21d28-7cf8-418f-9090-d8dd31144b16")
+	)
+	(pad "2" smd rect
+		(at 0 -2.244)
+		(size 5.69 6.18)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0c74e137-2ab8-4d11-baf8-caf94f356b5d")
+	)
+	(pad "3" smd rect
+		(at 2.286 4.191)
+		(size 1.397 2.286)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a622423a-fee0-4b70-9085-1f2916a7520a")
+	)
+	(model "${KIPRJMOD}/Library/PMOSGSD_TO-252AA_VIS.step"
+		(offset
+			(xyz 0 0.82 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

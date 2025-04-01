@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SQD50P04-13L_T4GE3
+D P-Channel 40 V 50A (Tc) 3W (Ta), 136W (Tc) Surface Mount TO-252AA , -55C ~ 175C (TJ)
+K
+F https://www.digikey.ph/en/products/detail/vishay-siliconix/SQD50P04-13L-T4GE3/16397487?msockid=39f1ec84d77b6f4428b7f904d6676eed
+$ENDCMP
+#
+#End Doc Library
