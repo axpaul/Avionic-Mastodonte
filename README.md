@@ -1,6 +1,6 @@
-# Mastodonte – Séquenceur 
+# Mastodonte – Séquenceur
 
-**Mastodonte** est un système embarqué autonome, ou plus précisément un **séquenceur avionique**, destiné à orchestrer les événements critiques d’un vol de fusée expérimentale. Il est conçu pour répondre aux exigences du **cahier des charges du C'Space**, et peut être utilisé dans tout projet nécessitant un séquencement fiable et temps réel.
+**Mastodonte** est un ordinateur de bord, ou plus précisément un **séquenceur**, destiné à orchestrer de manière autonome les événements critiques d’un vol de fusée expérimentale. Il est conçu pour répondre aux exigences du **cahier des charges du C'Space**, et s’intègre à tout projet nécessitant un séquencement fiable, robuste et temps réel.
 
 ---
 
@@ -9,42 +9,49 @@
 ---
 
 <p align="center">
-  <img src="Image/Mastodonte-N6.png" alt="Carte Mastodonte" width="600"/>
+  <img src="Image/Mastodonte-N6.png" alt="Carte Mastodonte" width="800"/>
 </p>
 
 ---
 
-## Fonctionnement 
+## Fonctionnement
 
 Mastodonte supervise et déclenche en toute autonomie les étapes clés du vol, sans intervention extérieure :
 
-- **Détection du décollage**  
-  La détection initiale peut se faire par deux moyens :
-  - Un **contact jack** (fil coupe-circuit) : un câble fin reliant le sol à la fusée se sectionne au moment du lancement. La rupture de ce contact est détectée par interruption et marque le départ de la séquence.
-  - Un **accéléro contact** (contacteur équipé de masselote) peut également fournir le signal de décollage.
-  Dans les deux cas, la carte commence son minuteur précisément le moment du décollage pour initier la suite des opérations.
+### Détection du décollage
+La détection initiale peut se faire par deux méthodes :
+- Un **contact jack** (fil coupe-circuit) : un câble fin relie la fusée au sol, et se sectionne au moment du lancement. La coupure génère une interruption matérielle, qui marque le T-0 du vol.
+- Un **accéléro-contact** (contacteur à masselotte) peut également déclencher le séquenceur dès détection d’une accélération.
 
-- **Fenêtrage temporel autour de l’apogée**  
-  Après le décollage, Mastodonte entre dans une **fenêtre temporelle** définie autour de l’apogée estimée. Durant cette fenêtre uniquement :
-  - La carte est à l’écoute d’un éventuel signal d’apogée transmis par une électronique extérieure (via un optocoupleur).
-  - Cela permet de prévenir toute **détection erronée** en dehors de cette phase.
-  - Si **aucune détection n’est reçue**, un déclenchement de sécurité est effectué après un **temps maximal prédéfini** post-apogée, garantissant ainsi l’ouverture du système de récupération.
+Dans les deux cas, la carte démarre son chronomètre interne pour initier la séquence.
 
-- **Déploiement des systèmes de récupération**  
-  Sur événement valide (ou par sécurité), Mastodonte pilote des **charges pyrotechniques ou moteurs DC** pour déployer le système de récupération.
+### Fenêtrage temporel autour de l’apogée
+Après le décollage, Mastodonte ouvre une **fenêtre temporelle** durant laquelle la détection de l’apogée est autorisée :
+- Un signal extérieur, par exemple issu d’un autre système avionique ou d’un capteur, peut être reçu via un **optocoupleur** pour indiquer l’apogée.
+- Ce signal n’est pris en compte **que pendant la fenêtre**, afin d’écarter toute détection parasite en dehors de cette phase critique.
+- Si aucune détection n’est reçue, un **déclenchement de sécurité** est effectué après un **temps maximal prédéfini** post-apogée, garantissant ainsi l’ouverture du système de récupération.
 
-- **Enregistrement des données critiques**  
-  À chaque étape, Mastodonte journalise les événements clés du vol :
-  - T-0 lors de la détection du décollage,
-  - début et fin de la fenêtre d’apogée,
-  - réception (ou non) du signal d’apogée,
-  - déclenchement effectif du système de récupération,
-  - tension batterie mesurée pendant le vol.
-  - Erreur moteur remonté. 
-  
-  Cette fonction de **boîte noire** permet une relecture et une analyse post-vol précise pour valider le comportement de la mission.
+### Déploiement du système de récupération
+En réponse à une détection d’apogée (ou par sécurité en fin de fenêtre), Mastodonte déclenche le système de récupération :
+- Par **charge pyrotechnique** (détonateur, coupe-corde, etc.),
+- Ou par **moteur DC** (vis de poussée, libération mécanique, etc.).
 
-Ce séquenceur vise la **robustesse**, la **prédictibilité** et l’**autonomie**, même en absence de télémétrie ou d’interaction sol pendant le vol.
+### Enregistrement des événements critiques
+Mastodonte assure un enregistrement précis des points clés du vol :
+- Heure de **décollage** (T-0),
+- **Début et fin** de la fenêtre d’apogée,
+- **Réception (ou absence)** du signal d’apogée,
+- **Déclenchement** du système de récupération,
+- **Tension batterie** mesurée durant le vol,
+- **Événements d’erreur moteur** détectés.
+
+Ce journal d’exécution agit comme une **boîte noire embarquée**, permettant d’analyser a posteriori le bon déroulement de la mission, et d’identifier toute anomalie de comportement.
+
+---
+
+Mastodonte vise à offrir un **fonctionnement déterministe**, **fiable** et **autonome**, même en l’absence de télémétrie ou de supervision au sol — conformément à l’esprit du **cahier des charges C'Space**.
+
+---
 
 ## Architecture & Fonctionnalités
 
