@@ -175,7 +175,7 @@ La carte **RP2040-YD** est conçue pour venir se **connecter verticalement** sur
 
 ## Ressources utiles
 
-Composants utilisés dans la carte Mastodonte, avec leurs fiches techniques officielles :
+Composants utilisés sur la carte Mastodonte, avec leurs fiches techniques officielles :
 
 | Composant | Rôle dans le système | Fiche technique |
 |----------|----------------------|-----------------|
