@@ -80,11 +80,10 @@ Mastodonte s’appuie sur la carte **RP2040-YD**, une carte commerciale compacte
   - **USER KEY** (GPIO24)
 - Interface **SWD** pour débogage
 
-La carte **RP2040-YD** est conçue pour venir se **connecter verticalement** sur le PCB principal appelé **BR-Motor** via deux rangées de connecteurs femelles.  
-Une fois assemblée, l'ensemble forme la carte **Mastodonte**, regroupant la logique de contrôle (RP2040-YD) et l’électronique de puissance et d’interface (BR-Motor).
+La carte **RP2040-YD** est conçue pour venir se **connecter verticalement** sur le PCB principal appelé **BR-Motor** via deux rangées de connecteurs femelles. Une fois assemblée, l'ensemble forme la carte **Mastodonte**, regroupant la logique de contrôle (RP2040-YD) et l’électronique de puissance et d’interface (BR-Motor).
 
 <p align="center">
-  <img src="Image/BR-Motor-N11.png" alt="RP2040-YD plug sur BR-Motor" width="700"/>
+  <img src="Image/BR-Motor-N11.png" alt="RP2040-YD plug sur BR-Motor" width="900"/>
 </p>
 
 ### Interfaces et connectiques
