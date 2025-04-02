@@ -1,12 +1,12 @@
 # Mastodonte – Séquenceur 
 
-**Mastodonte** est un ordinateur de bord conçu pour piloter de manière autonome les événements critiques d’un vol de fusée, en conformité avec le cahier des charges du **C'Space**.
+**Mastodonte** est un ordinateur de bord ou plutot un séquenceur conçu pour piloter de manière autonome les événements critiques d’un vol de fusée, en conformité avec le cahier des charges du **C'Space**.
 
 Il assure :
 - la détection du décollage,
 - l’activation des moteurs de séparation,
 - le déploiement des systèmes de récupération,
-- ainsi que l’enregistrement des données en vol.
+- ainsi que l’enregistrement des données critique du en vol.
 
 <p align="center">
   <img src="Image/Mastodonte-N6.png" alt="Carte Mastodonte" width="600"/>
@@ -100,15 +100,6 @@ Il assure :
 - [📘 Datasheet DRV8872](https://www.ti.com/lit/ds/symlink/drv8872.pdf)
 - [📘 RP2040 Datasheet](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html)
 - [📘 ACPL-214 Datasheet](https://www.broadcom.com/products/optocouplers/industrial-plastic/acpl-214)
-
----
-
-## Prochaines améliorations
-
-- [ ] Support du stockage externe (SD ou mémoire série)
-- [ ] Automate embarqué (états du vol)
-- [ ] Capteurs supplémentaires (fin de course, accéléro, etc.)
-- [ ] Intégration avec l’application RocketGroundStation
 
 ---
 
