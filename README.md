@@ -50,7 +50,7 @@ Mastodonte s’appuie sur une carte **RP2040-YD**, un microcontrôleur compact b
 - Interface **SWD** pour débogage
 
 <p align="center">
-  <img src="Image/rp2040-yd_pinout_zl.jpg" alt="RP2040-YD board" width="400"/>
+  <img src="Image/rp2040-yd_pinout_zl.jpg" alt="RP2040-YD board" width="600"/>
 </p>
 
 Ce module est directement soudé sur le PCB principal, assurant une compacité maximale tout en conservant un accès complet aux fonctionnalités logicielles et matérielles du RP2040.
