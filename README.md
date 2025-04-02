@@ -1,5 +1,7 @@
 # Mastodonte – Séquenceur 
 
+**Mastodonte** est un système embarqué autonome, ou plus précisément un **séquenceur avionique**, destiné à orchestrer les événements critiques d’un vol de fusée expérimentale. Il est conçu pour répondre aux exigences du **cahier des charges du C'Space**, et peut être utilisé dans tout projet nécessitant un séquencement fiable et temps réel.
+
 ---
 
 > © 2025 Paul MIAILHE – CC BY-NC-SA 4.0.
@@ -12,7 +14,7 @@
 
 ---
 
-**Mastodonte** est un système embarqué autonome, ou plus précisément un **séquenceur avionique**, destiné à orchestrer les événements critiques d’un vol de fusée expérimentale. Il est conçu pour répondre aux exigences du **cahier des charges du C'Space**, et peut être utilisé dans tout projet nécessitant un séquencement fiable et temps réel.
+## Fonctionnement 
 
 Mastodonte supervise et déclenche en toute autonomie les étapes clés du vol, sans intervention extérieure :
 
