@@ -128,7 +128,7 @@ Ce module est directement soudé sur le PCB principal, assurant une compacité m
 - Dimensions : **100 × 40 mm**
 - Épaisseur maximale : **18.13 mm**
 - Trous de fixation : 4 × Ø3.2 mm
-- Format adapté aux fusées expérimentales et bancs de test compacts
+- Fichier **STEP 3D** disponible ici : [`Mechanical/BR-Motor.step`](Mechanical/BR-Motor.step)
 
 <p align="center">
   <img src="Image/Mastodonte-N8.jpg" alt="Dimensions mécaniques" width="500"/>
