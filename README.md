@@ -49,7 +49,7 @@ Ce journal d’exécution agit comme une **boîte noire embarquée**, permettant
 
 ---
 
-Mastodonte vise à offrir un **fonctionnement déterministe**, **fiable** et **autonome**, même en l’absence de télémétrie ou de supervision au sol — conformément à l’esprit du **cahier des charges C'Space**.
+> Mastodonte vise à offrir un **fonctionnement déterministe**, **fiable** et **autonome**, même en l’absence de télémétrie ou de supervision au sol — conformément à l’esprit du **cahier des charges C'Space**.
 
 ---
 
