@@ -56,6 +56,12 @@ Il prend en charge la détection du décollage, le déclenchement des moteurs de
 
 ---
 
+## Synoptique 
+
+![Synoptique](Image/Mastodonte_synoptique.png)
+
+---
+
 ## Connectique
 
 - Connecteurs d'alimentation (entrée/sortie) au format B2B-XH
