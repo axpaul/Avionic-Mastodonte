@@ -123,33 +123,32 @@ Ce module est directement soudé sur le PCB principal, assurant une compacité m
 
 | Signal         | Type de signal     | Connecteur        | GPIO RP2040 | Description |
 |----------------|--------------------|-------------------|-------------|-------------|
-| `IN1_M1`       | PWM / Logique      | J6 (Moteur 1)     | GP0         | Commande H-Bridge moteur/charge 1 |
-| `IN2_M1`       | PWM / Logique      | J6 (Moteur 1)     | GP1         | Commande H-Bridge moteur/charge 1 |
-| `IN1_M2`       | PWM / Logique      | J7 (Moteur 2)     | GP2         | Commande H-Bridge moteur/charge 2 |
-| `IN2_M2`       | PWM / Logique      | J7 (Moteur 2)     | GP3         | Commande H-Bridge moteur/charge 2 |
-| `IN1_M3`       | PWM / Logique      | J8 (Moteur 3)     | GP4         | Commande H-Bridge moteur/charge 3 |
-| `IN2_M3`       | PWM / Logique      | J8 (Moteur 3)     | GP5         | Commande H-Bridge moteur/charge 3 |
-| `IN_BUZZ`      | Logique             | J5 (Buzzer)       | GP6         | Commande du buzzer (MOSFET BSS138) |
-| `OUT_N1`       | GPIO                | J10               | GP7         | Sortie numérique non isolée |
-| `OUT_N2`       | GPIO                | J10               | GP8         | Sortie numérique non isolée |
-| `OUT_N3`       | GPIO                | J10               | GP9         | Sortie numérique non isolée |
-| `OUT_N4`       | GPIO                | J11               | GP10        | Sortie numérique non isolée |
-| `OUT_N5`       | GPIO                | J11               | GP11        | Sortie numérique non isolée |
-| `OUT_N6`       | GPIO                | J11               | GP12        | Sortie numérique non isolée |
-| `OUT_ISO_N2`   | GPIO isolée         | J13 (Opto)        | GP13        | Sortie isolée via optocoupleur |
-| `OUT_ISO_N3`   | GPIO isolée         | J13 (Opto)        | GP14        | Sortie isolée via optocoupleur |
-| `OUT_ISO_N4`   | GPIO isolée         | J13 (Opto)        | GP15        | Sortie isolée via optocoupleur |
-| `SDA`          | I²C (données)       | J12 (I²C)         | GP16        | Bus I²C données (avec pull-up) |
-| `SCL`          | I²C (horloge)       | J12 (I²C)         | GP17        | Bus I²C horloge (avec pull-up) |
-| `UART_TX`      | UART (émission)     | J9 (UART)         | GP0 ou GP4¹ | Émission série vers modules externes |
-| `UART_RX`      | UART (réception)    | J9 (UART)         | GP1 ou GP5¹ | Réception série depuis modules externes |
+| `IN1_M1`       | PWM / Logique      | J6 (Moteur 1)     | GP14        | Commande H-Bridge moteur/charge 1 |
+| `IN2_M1`       | PWM / Logique      | J6 (Moteur 1)     | GP15        | Commande H-Bridge moteur/charge 1 |
+| `IN1_M2`       | PWM / Logique      | J7 (Moteur 2)     | GP16        | Commande H-Bridge moteur/charge 2 |
+| `IN2_M2`       | PWM / Logique      | J7 (Moteur 2)     | GP17        | Commande H-Bridge moteur/charge 2 |
+| `IN1_M3`       | PWM / Logique      | J8 (Moteur 3)     | GP18        | Commande H-Bridge moteur/charge 3 |
+| `IN2_M3`       | PWM / Logique      | J8 (Moteur 3)     | GP19         | Commande H-Bridge moteur/charge 3 |
+| `IN_BUZZ`      | Logique             | J5 (Buzzer)       | GP2         | Commande du buzzer (MOSFET BSS138) |
+| `OUT_N1`       | GPIO                | J10               | GP26        | Sortie numérique non isolée |
+| `OUT_N2`       | GPIO                | J10               | GP27        | Sortie numérique non isolée |
+| `OUT_N3`       | GPIO                | J10               | GP10        | Sortie numérique non isolée |
+| `OUT_N4`       | GPIO                | J11               | GP11        | Sortie numérique non isolée |
+| `OUT_N5`       | GPIO                | J11               | GP12        | Sortie numérique non isolée |
+| `OUT_N6`       | GPIO                | J11               | GP13        | Sortie numérique non isolée |
+| `OUT_ISO_N3`   | GPIO isolée         | J13 (Opto)        | GP3         | Sortie isolée via optocoupleur |
+| `OUT_ISO_N4`   | GPIO isolée         | J13 (Opto)        | GP4         | Sortie isolée via optocoupleur |
+| `SDA`          | I²C (données)       | J12 (I²C)         | GP8         | Bus I²C données (avec pull-up) |
+| `SCL`          | I²C (horloge)       | J12 (I²C)         | GP9         | Bus I²C horloge (avec pull-up) |
+| `IN_ISO_N1`    | UART (émission)     | J9 (UART)         | GP0         | Émission isolée série vers modules externes |
+| `OUT_ISO_N2`   | UART (réception)    | J9 (UART)         | GP1         | Réception isolée série depuis modules externes |
 | `VCC_BAT`      | Alimentation        | J2 / J3 (OUT PWR) | —           | Tension batterie (après filtrage) exposée |
 | `+5V`          | Alimentation régulée| J2 / J3 / I²C     | —           | Tension 5 V régulée disponible |
 | `+3.3V`        | Alimentation logique| Tous connecteurs  | —           | Tension logique (niveau RP2040) |
 
-> ¹ Les pins UART dépendent de la configuration logicielle (UART0/1) mais typiquement GP0/GP1 ou GP4/GP5 sont utilisés.
-
 > Tous les signaux sont sur le standart CMOS 3.3 V côté logique.
+
+## RP2040-YD PINOUT
 
 <p align="center">
   <img src="Image/rp2040-yd_pinout_zl.jpg" alt="RP2040-YD board" width="600"/>
