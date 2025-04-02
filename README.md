@@ -1,4 +1,4 @@
-# Mastodonte – Séquenceur avionique
+# Mastodonte – Séquenceur 
 
 ## Introduction
 
