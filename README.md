@@ -13,7 +13,6 @@ Il assure :
 </p>
 
 ---
-
 ## Architecture & Fonctionnalités
 
 ### Alimentation et protections
@@ -23,6 +22,30 @@ Il assure :
 - Régulation de tension (LM340AT : 7.4 V batterie → 5 V)
 - Sélection d’alimentation (USB-C ou batterie)
 - LED d’état de l’alimentation
+
+### Microcontrôleur RP2040-YD
+
+Mastodonte s’appuie sur une carte **RP2040-YD**, un microcontrôleur compact basé sur le **RP2040** de Raspberry Pi, intégrant les éléments suivants :
+
+- Double cœur **ARM Cortex-M0+** cadencé à 133 MHz
+- **128 Mbits (16 MB)** de mémoire flash externe **W25Q128**
+- Oscillateur intégré à **12 MHz**
+- Interface native **USB-C**
+- Format physique compatible **Raspberry Pi Pico**
+- Brochage latéral avec **40 broches GPIO** (20 de chaque côté)
+- LED RGB **WS2812** intégrée (contrôlée par le GPIO23)
+- Boutons intégrés :
+  - **BOOT**
+  - **RESET**
+  - **USER KEY** (connectée au GPIO24)
+- Interface **SWD** accessible pour le débogage
+
+<p align="center">
+  <img src="Image/rp2040-yd_pinout_zl.jpg" alt="RP2040-YD board" width="400"/>
+</p>
+
+Ce module est directement soudé sur le PCB principal, assurant une compacité maximale tout en conservant un accès complet aux fonctionnalités logicielles et matérielles du **RP2040**.
+
 
 ### Microcontrôleur principal
 - **RP2040** double cœur
