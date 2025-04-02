@@ -150,5 +150,5 @@ Ce module est directement soudé sur le PCB principal, assurant une compacité m
 
 ---
 
-© 2024 – Projet Mastodonte  
-Licence CC-BY-NC-SA
+## Licence CC-BY-NC-SA
+[CC-BY-NC-SA](Image/Cc-by-nc-sa_icon.svg.png)
