@@ -70,6 +70,12 @@ Il prend en charge la détection du décollage, le déclenchement des moteurs de
 
 ---
 
+## Mechanical
+
+![Mechanical](Image/Mastodonte-N8.jpg)
+
+---
+
 ## Domaines d'application
 
 - Fusées expérimentales et amateurs
