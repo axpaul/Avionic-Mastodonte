@@ -10,7 +10,11 @@ Il assure :
 - le déploiement des systèmes de récupération,
 - ainsi que l’enregistrement des données critiques en vol.
 
+---
+
 > © 2025 Paul MIAILHE – CC BY-NC-SA 4.0.
+
+---
 
 <p align="center">
   <img src="Image/Mastodonte-N6.png" alt="Carte Mastodonte" width="600"/>
