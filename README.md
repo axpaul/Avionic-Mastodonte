@@ -1,18 +1,19 @@
-# Mastodonte – Séquenceur 
+# Mastodonte – Séquenceur avionique
 
-**Mastodonte** est un ordinateur de bord ou plutot un séquenceur conçu pour piloter de manière autonome les événements critiques d’un vol de fusée, en conformité avec le cahier des charges du **C'Space**.
+**Mastodonte** est un ordinateur de bord, ou plus précisément un **séquenceur**, conçu pour piloter de manière autonome les événements critiques d’un vol de fusée, en conformité avec le cahier des charges du **C'Space**.
 
 Il assure :
 - la détection du décollage,
 - l’activation des moteurs de séparation,
 - le déploiement des systèmes de récupération,
-- ainsi que l’enregistrement des données critique du en vol.
+- ainsi que l’enregistrement des données critiques en vol.
 
 <p align="center">
   <img src="Image/Mastodonte-N6.png" alt="Carte Mastodonte" width="600"/>
 </p>
 
 ---
+
 ## Architecture & Fonctionnalités
 
 ### Alimentation et protections
@@ -20,8 +21,8 @@ Il assure :
 - Protection contre surtensions (**TVS SMAJ14A**)
 - Limitation de courant via fusible réarmable
 - Régulation de tension (LM340AT : 7.4 V batterie → 5 V)
-- Sélection d’alimentation (USB-C ou batterie)
-- LED d’état de l’alimentation
+- Sélection de la source d’alimentation (USB-C ou batterie)
+- LED d’indication d’alimentation
 
 ### Microcontrôleur RP2040-YD
 
@@ -34,34 +35,21 @@ Mastodonte s’appuie sur une carte **RP2040-YD**, un microcontrôleur compact b
 - Format physique compatible **Raspberry Pi Pico**
 - Brochage latéral avec **40 broches GPIO** (20 de chaque côté)
 - LED RGB **WS2812** intégrée (contrôlée par le GPIO23)
-- Boutons intégrés :
+- Boutons embarqués :
   - **BOOT**
   - **RESET**
-  - **USER KEY** (connectée au GPIO24)
-- Interface **SWD** accessible pour le débogage
+  - **USER KEY** (GPIO24)
+- Interface **SWD** pour débogage
 
 <p align="center">
   <img src="Image/rp2040-yd_pinout_zl.jpg" alt="RP2040-YD board" width="400"/>
 </p>
 
-Ce module est directement soudé sur le PCB principal, assurant une compacité maximale tout en conservant un accès complet aux fonctionnalités logicielles et matérielles du **RP2040**.
-
-
-### Microcontrôleur principal
-- **RP2040** double cœur
-- Interface USB-C
-- 12 MB de flash externe (W25Q128)
-- Prise en charge :
-  - GPIO
-  - I²C
-  - SPI
-  - UART
-  - PWM
-- LED RGB et bouton utilisateur embarqués
+Ce module est directement soudé sur le PCB principal, assurant une compacité maximale tout en conservant un accès complet aux fonctionnalités logicielles et matérielles du RP2040.
 
 ### Interfaces et connectiques
 - Connecteurs au format **B2B-XH**
-- Ports pour moteurs, charges pyrotechniques, capteurs et communications
+- Connexions dédiées pour moteurs, charges pyrotechniques, capteurs et interfaces de communication
 - Tensions disponibles : **5 V** et **3.3 V**
 
 ---
@@ -72,12 +60,12 @@ Ce module est directement soudé sur le PCB principal, assurant une compacité m
 - 3 drivers **DRV8872DDA** (ponts en H)
   - Jusqu’à **3.6 A** sous **6.5–45 V**
   - Contrôle **PWM**
-  - LED de direction intégrées pour tests sans charge
-  - Détection d’erreurs via la broche **nFAULT**
+  - LED de direction pour visualisation sans charge
+  - Détection d’erreurs via broche **nFAULT**
 
 ### Signaux d’entrée isolés
 - **Optocoupleurs ACPL-214** pour isolation galvanique
-- Buffers logiques **74HC14** pour signaux numériques
+- Buffers logiques **74HC14** (Schmitt trigger) pour traitement numérique
 - Isolation UART et conversion de niveau : **ADuM1281**
 - Pull-ups 4.7 kΩ intégrés sur les lignes I²C
 
@@ -99,9 +87,9 @@ Ce module est directement soudé sur le PCB principal, assurant une compacité m
 ## Caractéristiques mécaniques
 
 - Dimensions : **100 × 40 mm**
-- Épaisseur max : **18.13 mm**
+- Épaisseur maximale : **18.13 mm**
 - Trous de fixation : 4 × Ø3.2 mm
-- Facilement intégrable dans une fusée ou un banc de test
+- Format adapté aux fusées expérimentales et bancs de test compacts
 
 <p align="center">
   <img src="Image/Mastodonte-N8.jpg" alt="Dimensions mécaniques" width="500"/>
@@ -109,29 +97,13 @@ Ce module est directement soudé sur le PCB principal, assurant une compacité m
 
 ---
 
-## Domaines d'application
-
-- Fusées expérimentales (C'Space, PERSEUS…)
-- Charges utiles autonomes
-- Plateformes de test multi-étapes
-- Projets éducatifs ou amateurs avec séquence critique
-
----
-
 ## Ressources utiles
 
-- [📘 Datasheet DRV8872](https://www.ti.com/lit/ds/symlink/drv8872.pdf)
-- [📘 RP2040 Datasheet](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html)
-- [📘 ACPL-214 Datasheet](https://www.broadcom.com/products/optocouplers/industrial-plastic/acpl-214)
-
----
-
-## Contribution
-
-Les contributions sont les bienvenues.  
-Signalez un bug, proposez une amélioration ou ouvrez une *pull request* directement depuis le dépôt GitHub.
+- [Datasheet DRV8872](https://www.ti.com/lit/ds/symlink/drv8872.pdf)
+- [RP2040 Datasheet](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html)
+- [ACPL-214 Datasheet](https://www.broadcom.com/products/optocouplers/industrial-plastic/acpl-214)
 
 ---
 
 © 2024 – Projet Mastodonte  
-Licence à préciser
+Licence CC-BY-NC-SA
