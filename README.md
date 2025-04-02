@@ -65,7 +65,7 @@ Ce journal d’exécution agit comme une **boîte noire embarquée**, permettant
 
 ### Microcontrôleur RP2040-YD
 
-Mastodonte s’appuie sur une carte **RP2040-YD**, une carte commerciale compacte intégrant un microcontrôleur **RP2040** de Raspberry Pi, intégrant les éléments suivants :
+Mastodonte s’appuie sur la carte **RP2040-YD**, une carte commerciale compacte embarquant un microcontrôleur **RP2040** de Raspberry Pi, accompagnée de ses périphériques essentiels :
 
 - Double cœur **ARM Cortex-M0+** cadencé à 133 MHz
 - **128 Mbits (16 MB)** de mémoire flash externe **W25Q128**
@@ -73,19 +73,24 @@ Mastodonte s’appuie sur une carte **RP2040-YD**, une carte commerciale compact
 - Interface native **USB-C**
 - Format physique compatible **Raspberry Pi Pico**
 - Brochage latéral avec **40 broches GPIO** (20 de chaque côté)
-- LED RGB **WS2812** intégrée (contrôlée par le GPIO23)
+- LED RGB **WS2812** intégrée (GPIO23)
 - Boutons embarqués :
   - **BOOT**
   - **RESET**
   - **USER KEY** (GPIO24)
 - Interface **SWD** pour débogage
 
-Ce module est directement soudé sur le PCB principal, assurant une compacité maximale tout en conservant un accès complet aux fonctionnalités logicielles et matérielles du RP2040.
+La carte **RP2040-YD** est conçue pour venir se **connecter verticalement** sur le PCB principal appelé **BR-Motor** via deux rangées de connecteurs femelles.  
+Une fois assemblée, l'ensemble forme la carte **Mastodonte**, regroupant la logique de contrôle (RP2040-YD) et l’électronique de puissance et d’interface (BR-Motor).
+
+<p align="center">
+  <img src="Image/BR-Motor-N11.png" alt="RP2040-YD plug sur BR-Motor" width="700"/>
+</p>
 
 ### Interfaces et connectiques
 - Connecteurs au format **JST B2B-XH**
 - Connexions dédiées pour moteurs, charges pyrotechniques, capteurs et interfaces de communication
-- Tensions disponibles : **5 V** et **3.3 V**
+- Tensions disponibles : **5 V** et **3.3 V**
 
 ---
 
