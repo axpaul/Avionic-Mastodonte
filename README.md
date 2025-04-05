@@ -182,12 +182,15 @@ Composants utilisés sur la carte Mastodonte, avec leurs fiches techniques offic
 | **DRV8872** | Driver de moteur DC (pont en H jusqu’à 3.6 A) | [→ Datasheet TI](https://www.ti.com/lit/ds/symlink/drv8872.pdf) |
 | **RP2040** | Microcontrôleur principal double cœur | [→ Datasheet Raspberry Pi](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html) |
 | **ACPL-214** | Optocoupleur pour isolation galvanique des signaux d’entrée | [→ Datasheet Broadcom](https://www.broadcom.com/products/optocouplers/industrial-plastic/acpl-214) |
+| **TLP292(TPL,E** | Optocoupleur pour isolation galvanique des signaux d’entrée | [→ Datasheet Toshiba](https://toshiba.semicon-storage.com/info/TLP292_datasheet_en_20191129.pdf?did=14425&prodName=TLP292) |
 | **74HC14** | Buffer logique à trigger de Schmitt pour traitement des signaux numériques | [→ Datasheet TI](https://www.ti.com/lit/ds/symlink/sn74hc14.pdf?ts=1743611017766) |
 | **ADuM1281** | Isolateur numérique double canal pour signaux UART | [→ Datasheet Analog Devices](https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1280_1281_1285_1286.pdf) |
 | **LM340AT** | Régulateur de tension linéaire 5V | [→ Datasheet TI](https://www.ti.com/lit/ds/symlink/lm340.pdf) |
 | **1812L260/16MR** | Fusible réarmable pour limitation de courant | [→ Datasheet Littelfuse](https://www.littelfuse.com/assetdocs/resettable-ptcs-1812l-datasheet?assetguid=ca5c80cb-504e-4a8a-8e74-0107520a1717) |
 | **SQD50P04-13L** | MOSFET P pour protection contre l’inversion de polarité | [→ Datasheet Vishay](https://www.vishay.com/docs/65157/sqd50p04-13l.pdf) |
 | **BSS138** | Transistor N-MOS pour commutation de charges faibles (buzzer, etc.) | [→ Datasheet OnSemi](https://www.onsemi.com/pdf/datasheet/bss138-d.pdf) |
+
+Sur la production 02/03/2025, les optocoupleurs utilisés sont les TLP292(TPL,E).
 
 ---
 
