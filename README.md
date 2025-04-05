@@ -190,7 +190,7 @@ Composants utilisés sur la carte Mastodonte, avec leurs fiches techniques offic
 | **SQD50P04-13L** | MOSFET P pour protection contre l’inversion de polarité | [→ Datasheet Vishay](https://www.vishay.com/docs/65157/sqd50p04-13l.pdf) |
 | **BSS138** | Transistor N-MOS pour commutation de charges faibles (buzzer, etc.) | [→ Datasheet OnSemi](https://www.onsemi.com/pdf/datasheet/bss138-d.pdf) |
 
-Sur la production 02/03/2025, les optocoupleurs utilisés sont les TLP292(TPL,E).
+> Sur la production 02/03/2025, les optocoupleurs utilisés sont les TLP292(TPL,E).
 
 ---
 
