@@ -5,7 +5,7 @@
 	(uuid "05e0696a-2c10-4a5a-8ce8-91b25631ea8f")
 	(paper "A4")
 	(title_block
-		(title "BR-MOTOR : GPIO Sheet")
+		(title "BR-MOTOR : MAIN Sheet")
 		(date "2025-02-23")
 		(rev "V°1")
 		(company "MASTODONTE")
@@ -9923,7 +9923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm340.pdf?ts=1743830389916"
 			(at 101.6 34.29 0)
 			(effects
 				(font

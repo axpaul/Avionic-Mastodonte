@@ -8,6 +8,8 @@
 		(title "BR-MOTOR : GPIO Sheet")
 		(date "2025-02-23")
 		(rev "V°1")
+		(company "MASTODONTE")
+		(comment 1 "Paul Miailhe")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC14"
@@ -5185,7 +5187,7 @@
 		)
 		(uuid "369b2a49-0409-4282-ac52-134cba4bd7ec")
 	)
-	(text_box "ACPL-214 AC Input, Half-Pitch Phototransistor Optocoupler Data Sheet\n- Current transfer ratio (CTR: min. 20% at IF = ±5mA, VCC = 5V)\n- High input-output isolation voltage (VISO = 3,000VRMS)\n- Non-saturated Response time (tr: typ. 2μs at VCC = 10V, IC = 2mA, RL= 100Ω)\n- CMR 10 kV/μs (typical)"
+	(text_box "ACPL-214 AC / TLP292(TPL,E Input, Half-Pitch Phototransistor Optocoupler Data Sheet\n- Current transfer ratio (CTR: min. 20% at IF = ±5mA, VCC = 5V)\n- High input-output isolation voltage (VISO = 3,000VRMS)\n- Non-saturated Response time (tr: typ. 2μs at VCC = 10V, IC = 2mA, RL= 100Ω)\n- CMR 10 kV/μs (typical)"
 		(exclude_from_sim no)
 		(at 213.36 62.23 0)
 		(size 68.58 20.32)
@@ -5205,7 +5207,7 @@
 		)
 		(uuid "5c806b43-038f-435e-b4b6-05402cb1bc8e")
 	)
-	(text_box "ACPL-214 AC Input, Half-Pitch Phototransistor Optocoupler Data Sheet\n- Current transfer ratio (CTR: min. 20% at IF = ±5mA, VCC = 5V)\n- High input-output isolation voltage (VISO = 3,000VRMS)\n- Non-saturated Response time (tr: typ. 2μs at VCC = 10V, IC = 2mA, RL= 100Ω)\n- CMR 10 kV/μs (typical)"
+	(text_box "ACPL-214 AC / TLP292(TPL,E Input, Half-Pitch Phototransistor Optocoupler Data Sheet\n- Current transfer ratio (CTR: min. 20% at IF = ±5mA, VCC = 5V)\n- High input-output isolation voltage (VISO = 3,000VRMS)\n- Non-saturated Response time (tr: typ. 2μs at VCC = 10V, IC = 2mA, RL= 100Ω)\n- CMR 10 kV/μs (typical)"
 		(exclude_from_sim no)
 		(at 140.97 62.23 0)
 		(size 68.58 20.32)

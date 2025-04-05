@@ -5,9 +5,11 @@
 	(uuid "3be340ea-40ee-4b31-aab8-4bc42879e34a")
 	(paper "A4")
 	(title_block
-		(title "BR-MOTOR : GPIO Sheet")
+		(title "BR-MOTOR : MOTOR Sheet")
 		(date "2025-02-23")
 		(rev "V°1")
+		(company "MASTODONTE")
+		(comment 1 "Paul Miailhe")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
