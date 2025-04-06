@@ -4,7 +4,8 @@
 
 ---
 
-> © 2025 Paul MIAILHE – CC BY-NC-SA 4.0.
+> *© 2025 Paul Miailhe, all rights reserved.*  
+> *Material licensed under [→ CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0)*
 
 ---
 
@@ -195,8 +196,6 @@ Composants utilisés sur la carte Mastodonte, avec leurs fiches techniques offic
 ---
 
 ## ✦ Licence CC-BY-NC-SA
-
-> Material licensed under [→ CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0)
 
 <p align="center">
   <img src="Image/Cc-by-nc-sa_icon.svg.png" alt="CC-BY-NC-SA" width="500"/>
