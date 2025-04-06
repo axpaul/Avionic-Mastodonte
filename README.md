@@ -15,7 +15,7 @@
 
 ---
 
-## ✦ Fonctionnement
+## Fonctionnement
 
 Mastodonte supervise et déclenche en toute autonomie les étapes clés du vol, sans intervention extérieure :
 
@@ -54,7 +54,7 @@ Ce journal d’exécution agit comme une **boîte noire embarquée**, permettant
 
 ---
 
-## ✦ Architecture & Fonctionnalités
+## Architecture & Fonctionnalités
 
 ### Alimentation et protections
 - Protection contre l’inversion de polarité (MOSFET P **SQD50P04-13L**)
@@ -94,7 +94,7 @@ La carte **RP2040-YD** est conçue pour venir se **connecter verticalement** sur
 
 ---
 
-## ✦ Interfaces et E/S
+## Interfaces et E/S
 
 ### Commande moteur / Charge pyrotechnique
 - 3 drivers **DRV8872DDA** (ponts en H)
@@ -116,7 +116,7 @@ La carte **RP2040-YD** est conçue pour venir se **connecter verticalement** sur
 
 ---
 
-## ✦ Schéma fonctionnel
+## Schéma fonctionnel
 
 <p align="center">
   <img src="Image/Mastodonte_synoptique.png" alt="Synoptique Mastodonte" width="750"/>
@@ -124,7 +124,7 @@ La carte **RP2040-YD** est conçue pour venir se **connecter verticalement** sur
 
 ---
 
-## ✦ Signaux sortants – Carte Mastodonte (RP2040-YD)
+## Signaux sortants – Carte Mastodonte (RP2040-YD)
 
 | Signal         | Type de signal     | Connecteur        | GPIO RP2040 | Description |
 |----------------|--------------------|-------------------|-------------|-------------|
@@ -153,7 +153,7 @@ La carte **RP2040-YD** est conçue pour venir se **connecter verticalement** sur
 
 > Tous les signaux sont sur le standart CMOS 3.3 V côté logique.
 
-## ✦ RP2040-YD PINOUT
+## RP2040-YD PINOUT
 
 <p align="center">
   <img src="Image/rp2040-yd_pinout_zl.jpg" alt="RP2040-YD board" width="600"/>
@@ -161,7 +161,7 @@ La carte **RP2040-YD** est conçue pour venir se **connecter verticalement** sur
 
 ---
 
-## ✦ Caractéristiques mécaniques
+## Caractéristiques mécaniques
 
 - Dimensions : **100 × 40 mm**
 - Épaisseur maximale : **18.13 mm**
@@ -174,7 +174,7 @@ La carte **RP2040-YD** est conçue pour venir se **connecter verticalement** sur
 
 ---
 
-## ✦ Ressources utiles
+## Ressources utiles
 
 Composants utilisés sur la carte Mastodonte, avec leurs fiches techniques officielles :
 
@@ -195,7 +195,7 @@ Composants utilisés sur la carte Mastodonte, avec leurs fiches techniques offic
 
 ---
 
-## ✦ Licence CC-BY-NC-SA
+## Licence CC-BY-NC-SA
 
 <p align="center">
   <img src="Image/Cc-by-nc-sa_icon.svg.png" alt="CC-BY-NC-SA" width="500"/>
