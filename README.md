@@ -166,6 +166,7 @@ La carte **RP2040-YD** est conçue pour venir se **connecter verticalement** sur
 - Dimensions : **100 × 40 mm**
 - Épaisseur maximale : **18.13 mm**
 - Trous de fixation : 4 × Ø3.2 mm
+- Masse sans support : **37 g**
 - Fichier **STEP 3D** disponible ici : [`Mechanical/BR-Motor.step`](Mechanical/BR-Motor.step)
 
 <p align="center">
