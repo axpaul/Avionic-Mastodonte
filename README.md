@@ -4,8 +4,8 @@
 
 ---
 
-> *© 2025 Paul Miailhe, all rights reserved.*  
-> *Material licensed under [→ CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0)*
+> *© 2025/2026 CNES - Paul Miailhe.*  
+> *This material is licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S). [→ CERN-OHL-S](https://ohwr.org/licences/)*
 
 ---
 
