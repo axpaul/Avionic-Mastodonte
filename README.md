@@ -196,9 +196,8 @@ Composants utilisés sur la carte Mastodonte, avec leurs fiches techniques offic
 
 ---
 
-## Licence CC-BY-NC-SA
+## Test Fly Video 
 
-<p align="center">
-  <img src="Image/Cc-by-nc-sa_icon.svg.png" alt="CC-BY-NC-SA" width="500"/>
-</p>
+[![Test Avionique Mastodonte](https://img.youtube.com/vi/LKwvPUTVWk4/0.jpg)](https://www.youtube.com/watch?v=LKwvPUTVWk4)
 
+*Test des systèmes embarqués de la fusée Mastodonte.*
