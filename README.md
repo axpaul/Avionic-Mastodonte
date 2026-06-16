@@ -222,7 +222,7 @@ Lors de l'intégration de la carte, une attention particulière doit être port�
 
 ## Test Fly Video
 
-Le comportement des systèmes embarqués est visible en action sur la vidéo de qualification suivante :
+La vidéo de qualification de Mastodonte pour le projet Diamant :
 
 ### [Visionner le Test Avionique Mastodonte sur YouTube](https://www.youtube.com/watch?v=LKwvPUTVWk4)
 
