@@ -6,6 +6,7 @@
 
 > *© 2025/2026 - Paul Miailhe.*  
 > *This material is licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S). [→ CERN-OHL-S](https://ohwr.org/licences/)*
+> > [![License: CERN-OHL-S](https://img.shields.io/badge/License-CERN--OHL--S-blue.svg?style=flat-square)](https://ohwr.org/licences/)
 
 ---
 
