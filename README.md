@@ -194,10 +194,34 @@ Composants utilisés sur la carte Mastodonte, avec leurs fiches techniques offic
 
 > Sur la production 02/03/2025, les optocoupleurs utilisés sont les TLP292(TPL,E).
 
+# Module de Capteurs : BR Mini Sensor
+
+La **BR Mini Sensor** est une carte mezzanine entièrement compatible avec la Raspberry Pi Pico. Elle embarque une suite de capteurs communicant via le bus **I²C** :
+
+* **Un accéléromètre 3 axes & un gyromètre 3 axes** (IMU) : Basés sur le composant **LSM6DSL** de STMicroelectronics.
+* **Un capteur de pression** permettant de mesurer l'altitude : Basé sur le composant **LPS22HB** de STMicroelectronics.
+
+La carte BR Mini Sensor vous permettra, moyennant un peu de code, de mesurer et d'enregistrer les paramètres de vol de votre fusée **BR Mini Origin** (ou tout autre vecteur) afin d'en estimer la trajectoire.
+
+Pour plus de détails, consultez la documentation officielle : [Wiki BR Mini Sensor](https://berryrocket.com/wiki/BR_Mini_Sensor).
+
 ---
 
-## Test Fly Video 
+## Configuration matérielle et précautions
 
-[![Test Avionique Mastodonte](https://img.youtube.com/vi/LKwvPUTVWk4/0.jpg)](https://www.youtube.com/watch?v=LKwvPUTVWk4)
+Lors de l'intégration de la carte, une attention particulière doit être portée à la gestion des broches d'interruption :
+
+* **Isolement des interruptions (INT1 / INT2) :** Il est nécessaire de prévoir le **dessoudage de certaines résistances 0R** sur la carte pour les lignes `INT1` et `INT2` de l'IMU.
+* **Prévention des conflits :** Cette modification permet d'éviter de polluer d'autres pins de la carte porteuse et d'interférer avec l'**optocoupleur 3** ou le signal **Nfault du moteur 3**.
+
+---
+
+## Test Fly Video
+
+Le comportement des systèmes embarqués est visible en action sur la vidéo de qualification suivante :
+
+### [Visionner le Test Avionique Mastodonte sur YouTube](https://www.youtube.com/watch?v=LKwvPUTVWk4)
+
+[![Test Avionique Mastodonte](https://img.youtube.com/vi/LKwvPUTVWk4/maxresdefault.jpg)](https://www.youtube.com/watch?v=LKwvPUTVWk4)
 
 *Test des systèmes embarqués de la fusée Mastodonte.*
