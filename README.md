@@ -197,9 +197,9 @@ Composants utilisés sur la carte Mastodonte, avec leurs fiches techniques offic
 
 ---
 
-# [OPTION] Module de Capteurs : BR Mini Sensor
+# [OPTION] : BR Mini Sensor
 
-La **BR Mini Sensor** est une carte mezzanine entièrement compatible avec la Raspberry Pi Pico. Il s'agit d'un **COMPLEMENT** : la carte maîtresse fonctionne parfaitement sans, mais cet ajout permet d'étendre ses capacités.
+La **BR Mini Sensor** est une carte mezzanine entièrement compatible avec la Raspberry Pi Pico. Il s'agit d'un **COMPLEMENT**. Le stack sans fonctionne parfaitement sans, mais cet ajout permet d'étendre ses capacités.
 Elle embarque une suite de capteurs communicant via le bus **I²C** :
 * **Un accéléromètre 3 axes & un gyromètre 3 axes** (IMU) : Basés sur le composant **LSM6DSL** de STMicroelectronics.
 * **Un capteur de pression** permettant de mesurer l'altitude : Basé sur le composant **LPS22HB** de STMicroelectronics.
@@ -208,7 +208,7 @@ Elle embarque une suite de capteurs communicant via le bus **I²C** :
   <img src="https://github.com/axpaul/Avionic-Mastodonte/raw/main/Image/Br_mini_sensor.png" alt="BR Mini Sensor" width="300"/>
 </p>
 
-La carte BR Mini Sensor vous permettra, moyennant un peu de code, de mesurer et d'enregistrer les paramètres de vol de votre fusée **BR Mini Origin** (ou tout autre vecteur) afin d'en estimer la trajectoire.
+La carte BR Mini Sensor vous permettra, moyennant un peu de code, de mesurer et d'enregistrer les paramètres de vol de votre fusée afin d'en estimer la trajectoire.
 Pour plus de détails, consultez la documentation officielle : [Wiki BR Mini Sensor](https://berryrocket.com/wiki/BR_Mini_Sensor).
 
 ## Configuration matérielle et précautions
