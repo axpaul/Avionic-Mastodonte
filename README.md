@@ -204,7 +204,7 @@ Elle embarque une suite de capteurs communicant via le bus **I²C** :
 * **Un capteur de pression** permettant de mesurer l'altitude : Basé sur le composant **LPS22HB** de STMicroelectronics.
 
 <p align="center">
-  <img src="https://github.com/axpaul/Avionic-Mastodonte/raw/main/Image/Br_mini_sensor.png" alt="BR Mini Sensor" width="400"/>
+  <img src="https://github.com/axpaul/Avionic-Mastodonte/raw/main/Image/Br_mini_sensor.png" alt="BR Mini Sensor" width="300"/>
 </p>
 
 La carte BR Mini Sensor vous permettra, moyennant un peu de code, de mesurer et d'enregistrer les paramètres de vol de votre fusée **BR Mini Origin** (ou tout autre vecteur) afin d'en estimer la trajectoire.
